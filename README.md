@@ -73,9 +73,7 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-[![React][React.js]][React-url] + Tailwind
+[![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +83,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -104,7 +101,6 @@ Use the `BLANK_README.md` to get started.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Expected to work with React
 
 ### Installation
 
@@ -118,7 +114,7 @@ npm install @infini-ui/react-add-to-calendar --save
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+_Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources._
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -137,7 +133,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Drewskee/react-add-to-calendar/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +160,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. _See `LICENSE.txt` for more information._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,9 +169,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Drew Stephenson - [@your_twitter](https://twitter.com/DrewStephenson) - drew@iamdrewstephenson.com
+Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) - drew@iamdrewstephenson.com
 
-Project Link: [https://github.com/Drewskee/react-add-to-calendar](https://github.com/Drewskee/react-add-to-calendar)
+Project : [https://github.com/Drewskee/react-add-to-calendar](https://github.com/Drewskee/react-add-to-calendar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +180,7 @@ Project Link: [https://github.com/Drewskee/react-add-to-calendar](https://github
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+_Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!_
 
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
