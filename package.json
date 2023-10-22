@@ -1,6 +1,6 @@
 {
   "name": "@infini-ui/react-add-to-calendar",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "main": "src/infini-ui.tsx",
   "types": "decs.d.ts",
   "scripts": {

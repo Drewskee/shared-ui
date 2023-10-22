@@ -44,6 +44,7 @@ module.exports = (webpackConfigEnv, argv) => {
 
   defaultConfig.resolve.alias = {
     "@components": path.resolve(__dirname, "./components"),
+    "@src": path.resolve(__dirname, "./src"),
   };
 
   // defaultConfig.loader = {
