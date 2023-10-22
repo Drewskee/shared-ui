@@ -1,11 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-const Color = require('color')
-const alpha = (clr, val) => Color(clr).alpha(val).rgb().string()
-const lighen = (clr, val) => Color(clr).lighten(val).rgb().string()
-const darken = (clr, val) => Color(clr).darken(val).rgb().string()
-
-// https://www.figma.com/file/5JJxK95E3SWdTaU7EfcuFZ/infini-ui---Payment-portal?type=design&node-id=7055-116108&mode=design&t=1SP6ddyzVzgWr6cs-0
 module.exports = {
   content: [
     './src/components/**/*.{js,jsx,ts,tsx}',
@@ -172,27 +166,3 @@ module.exports = {
     }
   ],
 };
-
-// load all styles
-// pattern: /([a-zA-Z]+)-./,
-
-// load all colors 
-// pattern: /(bg|text|border)-./ 
-
-// load only the color gray 
-// {
-//   pattern: /(bg|text|border)-gray-(50|100|200|300|400|500|600|700|800|900)/,
-// },
-
-// TODO add image assets back
-// backgroundImage: {
-//   'card-1': "url('../src/assets/payments/backgrounds/1-2x.png')",
-//   'card-2': "url('../src/assets/payments/backgrounds/2-2x.png')",
-//   'card-3': "url('../src/assets/payments/backgrounds/3-2x.png')",
-//   'card-4': "url('../src/assets/payments/backgrounds/4-2x.png')",
-//   'card-5': "url('../src/assets/payments/backgrounds/5-2x.png')",
-//   'card-6': "url('../src/assets/payments/backgrounds/6-2x.png')",
-//   'card-7': "url('../src/assets/payments/backgrounds/7-2x.png')",
-//   'gradient-radial':
-//     'radial-gradient(247.96% 225.93% at 179.59% 120.78%, #EF303D 0%, #073EEC 100%)',
-// },

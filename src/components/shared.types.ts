@@ -1,9 +1,9 @@
 import { Component } from 'react';
-import type { DeepMap, FieldError, FieldValues } from 'react-hook-form';
+// import type { DeepMap, FieldError, FieldValues } from 'react-hook-form';
 import { IBreakPoint } from './theme.constants';
 
-export type FieldErrors<TFieldValues extends FieldValues = FieldValues> =
-  DeepMap<TFieldValues, FieldError>;
+// export type FieldErrors<TFieldValues extends FieldValues = FieldValues> =
+//   DeepMap<TFieldValues, FieldError>;
 
 export type IFieldValues = { name: string; label: string; type: string };
 

@@ -5,6 +5,13 @@ declare module "*.html" {
   export = rawHtmlFile;
 }
 
+declare module "\*.svg" {
+  // import React = require("react");
+  // const src: React.FC<React.SVGProps<SVGSVGElement>> | 
+  const src: string;
+  export default src;
+}
+
 declare module "*.bmp" {
   const src: string;
   export default src;
@@ -35,10 +42,12 @@ declare module "*.webp" {
   export default src;
 }
 
-declare module "*.svg" {
-  const content: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
-  export default content;
-}
+
+
+// declare module "*.svg" {
+//   const content: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
+//   export default content;
+// }
 
 
 // declare module "*.svg" {

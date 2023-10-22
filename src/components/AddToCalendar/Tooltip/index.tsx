@@ -1,5 +1,5 @@
 
-interface IAddToCalendarTooltip {
+export interface IAddToCalendarTooltip {
     props: any
 }
 
