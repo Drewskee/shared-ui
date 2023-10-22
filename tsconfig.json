@@ -37,9 +37,7 @@
   "exclude": [
     "src/**/*.test*"
   ],
-  "types": [
-    "vite/client",
-  ]
+  "types": []
 }
 
 

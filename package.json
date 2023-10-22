@@ -1,7 +1,7 @@
 {
   "name": "@infini-ui/react-add-to-calendar",
-  "version": "0.1.11",
-  "main": "src/infini-ui.tsx",
+  "version": "0.1.14",
+  "main": "src/infini-react-add-to-calendar.tsx",
   "types": "decs.d.ts",
   "scripts": {
     "start": "webpack serve",
@@ -47,7 +47,6 @@
     "@testing-library/react": "^12.1.5",
     "@types/color": "^3.0.3",
     "@types/testing-library__jest-dom": "^5.14.9",
-    "@vitejs/plugin-react": "^4.0.4",
     "babel-jest": "^27.5.1",
     "chromatic": "^6.23.0",
     "classnames": "^2.3.2",
@@ -90,8 +89,8 @@
     "@types/react-dom": "^17.0.20",
     "@types/systemjs": "^6.13.2",
     "@types/webpack-env": "^1.18.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
     "react-is": "^18.2.0",
     "react-spring": "^9.7.2",
