@@ -1,25 +1,6 @@
-# React Add to Calendar Button
-
-[![npm version](https://badge.fury.io/js/react-add-to-calendar.svg)](https://badge.fury.io/js/react-add-to-calendar)
-[![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
-[![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
-[![Downloads](http://img.shields.io/npm/dm/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
-
-## Installation
-```
-npm install @infini-ui/react-add-to-calendar --save
-```
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -34,9 +15,11 @@ npm install @infini-ui/react-add-to-calendar --save
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
+[![LinkedIn][linkedin-shield]]["https://www.linkedin.com/in/andrew-tech-stephenson/"]
+[![npm version](https://badge.fury.io/js/react-add-to-calendar.svg)](https://badge.fury.io/js/react-add-to-calendar)
+[![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
+[![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
+[![Downloads](http://img.shields.io/npm/dm/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -45,19 +28,19 @@ npm install @infini-ui/react-add-to-calendar --save
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">React Add to Calendar Button</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Drewskee/react-add-to-calendar"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/Drewskee/react-add-to-calendar">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Request Feature</a>
   </p>
 </div>
 
@@ -115,14 +98,9 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Tailwind][Tailwind.css]][Tailwind-url]
+* [![Javascript][Javascript.com]][Javascript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,16 +109,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Expected to work with React
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
-  ```sh
-  npm install npm@latest -g
-  ```
+ ```
+npm install @infini-ui/react-add-to-calendar --save
+```
 
 ### Installation
 
