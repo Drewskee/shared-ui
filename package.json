@@ -1,38 +1,116 @@
 {
-  "name": "react-add-to-calendar",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "@infini-ui/react-add-to-calendar",
+  "version": "0.1.8",
+  "main": "src/infini-ui.tsx",
+  "types": "decs.d.ts",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "webpack serve",
+    "start:standalone": "webpack serve --env standalone",
+    "build": "concurrently npm:build:*",
+    "build:webpack": "webpack --mode=production",
+    "build:tailwind": "npx tailwindcss -i ./src/styles/tailwinds.css -o ./dist/infini-ui.tailwind.css",
+    "analyze": "webpack --mode=production --env analyze",
+    "lint": "eslint src --ext js,ts,tsx",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "test": "cross-env BABEL_ENV=test jest",
+    "watch-tests": "cross-env BABEL_ENV=test jest --watch",
+    "coverage": "cross-env BABEL_ENV=test jest --coverage",
+    "build:types": "tsc",
+    "storybook": "concurrently --kill-others \"npx tailwindcss -i ./src/styles/tailwinds.css -o ./dist/infini-ui.tailwind.css --watch\" \"storybook dev -p 6006\"",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/eslint-parser": "^7.22.10",
+    "@babel/plugin-transform-runtime": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@babel/runtime": "^7.22.10",
+    "@storybook/addon-essentials": "^7.3.2",
+    "@storybook/addon-interactions": "^7.3.2",
+    "@storybook/addon-links": "^7.3.2",
+    "@storybook/addon-styling": "^1.3.6",
+    "@storybook/blocks": "^7.3.2",
+    "@storybook/manager-api": "^7.2.3",
+    "@storybook/react": "^7.3.2",
+    "@storybook/react-webpack5": "^7.3.2",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/theming": "^7.2.3",
+    "@svgr/webpack": "^8.0.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.5",
+    "@tailwindcss/typography": "^0.5.9",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^12.1.5",
+    "@types/color": "^3.0.3",
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "@vitejs/plugin-react": "^4.0.4",
+    "babel-jest": "^27.5.1",
+    "chromatic": "^6.23.0",
+    "classnames": "^2.3.2",
+    "color": "^4.2.3",
+    "concurrently": "^6.5.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-ts-react-important-stuff": "^3.0.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-storybook": "^0.6.13",
+    "flowbite": "^1.8.1",
+    "flowbite-typography": "^1.0.3",
+    "husky": "^7.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "path": "^0.12.7",
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.3",
+    "react-svg": "^16.1.21",
+    "storybook": "^7.3.2",
+    "storybook-addon-themes": "^6.1.0",
+    "svg-react-loader": "^0.4.6",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-children": "^2.1.0",
+    "ts-config-single-spa": "^3.0.0",
+    "ts-loader": "^9.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-config-single-spa-react": "^4.0.4",
+    "webpack-config-single-spa-react-ts": "^4.0.4",
+    "webpack-config-single-spa-ts": "^4.1.3",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.65",
+    "@types/react-dom": "^17.0.20",
+    "@types/systemjs": "^6.13.2",
+    "@types/webpack-env": "^1.18.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.45.4",
+    "react-is": "^18.2.0",
+    "react-spring": "^9.7.2",
+    "single-spa": "^5.9.5",
+    "single-spa-react": "^5.1.4",
+    "storybook-tailwind-dark-mode": "^1.0.22",
+    "tailwind-merge": "^1.14.0"
+  },
+  "repository": {
+    "url": "git://github.com/Drewskee/react-add-to-calendar.git"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "plugin:storybook/recommended"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "bugs": {
+    "url": "https://github.com/Drewskee/react-add-to-calendar/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/Drewskee/react-add-to-calendar#readme"
 }

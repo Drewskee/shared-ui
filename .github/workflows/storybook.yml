@@ -1,0 +1,40 @@
+name: build-storybook
+on:
+  push:
+    branches:
+      - "*"
+      - "!main"
+    tags:
+      - "!v*"
+
+jobs:
+  build:
+    name: build-storybook
+    runs-on: ubuntu-latest
+    env:
+      CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_TOKEN }}
+      GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: pnpm setup
+        run: |
+          corepack enable
+          corepack prepare pnpm@7.13.6 --activate
+          echo "pnpm version:"
+          pnpm -v
+
+      - name: pnpm install
+        run: |
+          rm -rf node_modules && pnpm i --frozen-lockfile
+          pnpm build:tailwind
+
+      - name: Build and Deploy Storybook on Chromatic
+        uses: chromaui/action@v1
+        with:
+          projectToken: ${{ env.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ env.GH_REPO_TOKEN }}
