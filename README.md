@@ -79,14 +79,10 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About
 
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
-
-
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,16 +98,6 @@ npm install @infini-ui/react-add-to-calendar --save
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-_Examples coming soon_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 <!-- CONTRIBUTING -->
