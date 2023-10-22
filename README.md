@@ -13,13 +13,12 @@
 
 [![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
 [![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
-[![Downloads](http://img.shields.io/npm/dm/infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
-
+[![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 <br />
 
 
+
 <!-- PROJECT LOGO -->
-[![Linked-in](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
 <br />
 <div align="center">
@@ -31,8 +30,6 @@
 
   <p align="center">
     An awesome add to calendar button to help you get back to the important things
-    
-
     <br />
     <a href="https://github.com/Drewskee/react-add-to-calendar"><strong>Explore the docs »</strong></a>
     <br />
@@ -74,9 +71,19 @@
 </details>
 
 
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![React][React.js]][React-url] + Tailwind
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+[![Linked-in](https://img.shields.io/badge/LinkedIn-status-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -92,19 +99,6 @@ Of course, no one template will serve all projects since your needs may be diffe
 Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![React][React.js]][React-url]
-* [![Tailwind][Tailwind.css]][Tailwind-url]
-* [![Javascript][Javascript.com]][Javascript-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
