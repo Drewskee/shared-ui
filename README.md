@@ -1,16 +1,13 @@
 # React Add to Calendar Button
 
 [![npm version](https://badge.fury.io/js/react-add-to-calendar.svg)](https://badge.fury.io/js/react-add-to-calendar)
-[![Build Status](https://travis-ci.org/jasonsalzman/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
-[![codecov](https://codecov.io/gh/jasonsalzman/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
-[![Downloads](http://img.shields.io/npm/dm/react-add-to-calendar.svg)](https://npmjs.org/package/react-add-to-calendar)
+[![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
+[![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
+[![Downloads](http://img.shields.io/npm/dm/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 
 ## Installation
-
-The package can be installed via NPM:
-
 ```
-pnpm install @infini-ui/react-add-to-calendar --save
+npm install @infini-ui/react-add-to-calendar --save
 ```
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
