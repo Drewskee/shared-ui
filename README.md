@@ -75,7 +75,7 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![React][React.js]][React-url] + Tailwind
+[![React][React.js]][React-url] + Tailwind
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +83,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Linked-in](https://img.shields.io/badge/LinkedIn-status-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
+[![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
