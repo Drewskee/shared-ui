@@ -10,18 +10,18 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]]["https://www.linkedin.com/in/andrew-tech-stephenson/"]
-[![npm version](https://badge.fury.io/js/react-add-to-calendar.svg)](https://badge.fury.io/js/react-add-to-calendar)
+
+[![npm version](https://badge.fury.io/js/@infini-ui/react-add-to-calendarr.svg)](https://badge.fury.io/js/@infini-ui/react-add-to-calendar)
 [![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
 [![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
-[![Downloads](http://img.shields.io/npm/dm/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
+[![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
+
+<br />
+
 
 <!-- PROJECT LOGO -->
+[![Linked-in](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-tech-stephenson)
+
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -31,7 +31,9 @@
   <h3 align="center">React Add to Calendar Button</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome add to calendar button to help you get back to the important things
+    
+
     <br />
     <a href="https://github.com/Drewskee/react-add-to-calendar"><strong>Explore the docs »</strong></a>
     <br />
