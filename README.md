@@ -11,10 +11,9 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![npm version](https://badge.fury.io/js/infini-ui/react-add-to-calendarr.svg)](https://badge.fury.io/js/infini-ui/react-add-to-calendar)
 [![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
 [![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
-[![Downloads](http://img.shields.io/npm/dm/infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/infini-ui/react-add-to-calendar)
+[![Downloads](http://img.shields.io/npm/dm/infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 
 <br />
 
