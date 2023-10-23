@@ -42,7 +42,8 @@ declare module "*.webp" {
   export default src;
 }
 
-
+declare module "*.css";
+declare module "*.scss";
 
 // declare module "*.svg" {
 //   const content: React.FunctionComponent<React.SVGAttributes<SVGElement>>;

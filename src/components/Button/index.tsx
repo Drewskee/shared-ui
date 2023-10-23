@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import React from "react";
 
 import { twMerge } from 'tailwind-merge';
 import classnames from 'classnames';
@@ -19,8 +19,8 @@ const Button = ({
   onClick,
 }: IButton) => {
 
-  const [isFocused, setFocused] = useState<boolean>(false)
-  const btnRef = useRef<any>()
+  const [isFocused, setFocused] = React.useState<boolean>(false)
+  const btnRef = React.useRef<any>()
   const clsBase = "flex flex-row px-6 py-2 rounded-xl cursor-pointer justify-between items-center";
   const disabledCls = "cursor-not-allowed border-2 bg-gray-600 border-gray-300 text-gray-300 hover:text-gray-300 hover:bg-gray-600 hover:border-gray-300";
   const palette = styleDictionary.find((dict: IButtonStyleDict) => dict.palette === brandColor && dict.variant === variant)

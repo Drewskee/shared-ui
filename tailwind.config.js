@@ -150,6 +150,21 @@ module.exports = {
         'gradient-radial':
           'radial-gradient(247.96% 225.93% at 179.59% 120.78%, #EF303D 0%, #073EEC 100%)',
       },
+      keyframes: {
+          slideIn: {
+            '0%': {
+              opacity: '0',
+              transform: 'translateY(-10px)'
+            },
+            '100%': {
+              opacity: '1',
+              transform: 'translateY(0)'
+            }
+          }
+      },
+      animation: {
+          slideIn: 'slideIn 0.3s ease-out',
+      }
     },
   },
   plugins: [

@@ -23,7 +23,7 @@ module.exports = (_webpackConfigEnv, _argv) => {
     {
       test: /\.svg$/i,
       use: ["@svgr/webpack"],
-    },
+    }
   ]
 
   return defaultConfig
