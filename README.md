@@ -84,13 +84,18 @@
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
 ```
-Interfaces ICalendarEvent {
+import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
+import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
+
+const event: ICalendarEvent = {
     title: " Your event title ",
     description: " This is your event description ",
     startDate: new Date(),
     endDate: new Date(new Date().setDate(new Date().getDate() + ${ delta_of_days} )),
     address: "1234 Infini UI Lane, Atlanta, Ga 12345"
-  }
+}
+
+<AddToCalendarButton calendarEvent={event} />
 ```
 
 
