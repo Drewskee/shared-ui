@@ -117,10 +117,10 @@ npm install @infini-ui/react-add-to-calendar --save
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
+- [x] Add Base Button Component
+- [x] Default Tailwind Compiler
 - [ ] Add Additional Templates w/ Examples
-- [ ] Tailwind Support with BEM class fallback
+- [ ] Tailwind Override Support with BEM class fallback
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
     - [ ] Spanish
