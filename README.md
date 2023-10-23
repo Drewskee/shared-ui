@@ -123,8 +123,8 @@ npm install @infini-ui/react-add-to-calendar --save
 - [ ] Tailwind Support with BEM class fallback
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
-    - [ ] Chinese
     - [ ] Spanish
+    - [ ] + more ([Request your language](https://github.com/othneildrew/Best-README-Template/issues)  )
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
