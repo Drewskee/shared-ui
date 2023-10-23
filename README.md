@@ -83,6 +83,16 @@
 
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
+`
+Interfaces ICalendarEvent {
+    title: " Your event title ",
+    description: " This is your event description ",
+    startDate: new Date(),
+    endDate: new Date(new Date().setDate(new Date().getDate() + ${ delta_of_days} )),
+    address: "1234 Infini UI Lane, Atlanta, Ga 12345"
+  }
+`
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
