@@ -87,11 +87,12 @@
 import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
 
+const DELTA_DAYS = 1;
 const event: ICalendarEvent = {
     title: " Your event title ",
     description: " This is your event description ",
     startDate: new Date(),
-    endDate: new Date(new Date().setDate(new Date().getDate() + ${ delta_of_days} )),
+    endDate: new Date(new Date().setDate(new Date().getDate() + DELTA_DAYS )),
     address: "1234 Infini UI Lane, Atlanta, Ga 12345"
 }
 
