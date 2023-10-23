@@ -154,9 +154,6 @@ Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) - drew@i
 
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
 
-
-Project : [https://github.com/Drewskee/react-add-to-calendar](https://github.com/Drewskee/react-add-to-calendar)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
