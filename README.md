@@ -19,6 +19,7 @@
 
 
 <!-- PROJECT LOGO -->
+![infini-ui-react-add-to-cal](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/35f8bfdd-4256-456c-ac08-59e6aaabc06e)
 
 <br />
 <div align="center">
