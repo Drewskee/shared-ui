@@ -87,6 +87,7 @@ import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
 
 const DELTA_DAYS = 1;
+
 const event: ICalendarEvent = {
     title: " Your event title ",
     description: " This is your event description ",
