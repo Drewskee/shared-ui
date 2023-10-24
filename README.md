@@ -77,6 +77,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Installation
+
+ ```
+npm install @infini-ui/react-add-to-calendar --save
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
 ## About
@@ -98,23 +105,19 @@ const event: ICalendarEvent = {
 }
 
 <AddToCalendarButton calendarEvent={event} />
-```
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-### Installation
-
- ```
-npm install @infini-ui/react-add-to-calendar --save
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## API
+```
+Coming Soon
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ROADMAP -->
 ## Roadmap
