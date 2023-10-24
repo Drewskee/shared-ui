@@ -86,8 +86,7 @@ npm install @infini-ui/react-add-to-calendar --save
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
-## About
-
+## Example
 
 ```
 import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
@@ -110,7 +109,8 @@ const event: ICalendarEvent = {
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## API
+## Component API
+
 ```
 Coming Soon
 
