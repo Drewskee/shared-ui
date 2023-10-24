@@ -146,10 +146,6 @@ module.exports = {
         '80': '20rem',
         '96': '24rem',
       },
-      backgroundImage: {
-        'gradient-radial':
-          'radial-gradient(247.96% 225.93% at 179.59% 120.78%, #EF303D 0%, #073EEC 100%)',
-      },
       keyframes: {
           slideIn: {
             '0%': {

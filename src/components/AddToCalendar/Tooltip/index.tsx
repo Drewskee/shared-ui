@@ -1,8 +1,13 @@
 import { ICalendarEvent } from "../";
 import { generateGoogleCalendarUrl, generateIcsCalendarFile, generateYahooCalendarUrl } from './../utils';
+import { PiMicrosoftOutlookLogoBold } from 'react-icons/pi';
+import { IoLogoGoogle, IoLogoApple } from 'react-icons/io';
+import { TbBrandYahoo } from 'react-icons/tb';
 
 interface AddToCalendarButtonTooltipProps {
   calendarEvent: ICalendarEvent;
+  tooltipWrapperCls?: string;
+  tooltipListWrapperCls?: string;
 }
 
 export default function Tooltip({ calendarEvent }: AddToCalendarButtonTooltipProps) {
@@ -11,21 +16,23 @@ export default function Tooltip({ calendarEvent }: AddToCalendarButtonTooltipPro
     <div>No event found</div>
   </>)
 
+  const icons = !!calendarEvent.showBrandIcons;
+
   return (
-    <div className="flex-col group-focus-within:block list-none absolute bg-gray-50 w-40 z-1 shadow-lg animate-slideIn" data-testid="add-to-calendar-button-tooltip">
+    <div className="flex-col group-focus-within:block list-none absolute bg-gray-50 w-48 z-1 shadow-lg animate-slideIn" data-testid="add-to-calendar-button-tooltip">
       <a
         href={generateGoogleCalendarUrl(calendarEvent)}
         target="_blank" rel="noopener noreferrer"
         className={listCls}
         data-testid="calendar-provider-link">
-        <span className="icon__placeholder" /> Google Calendar
+        {icons && <IoLogoGoogle className="w-4" />}<span className="ml-2 icon__placeholder" /> Google Calendar
       </a>
       <a
         href={generateIcsCalendarFile(calendarEvent)}
         target="_blank" rel="noopener noreferrer"
         className={listCls}
         data-testid="calendar-provider-link">
-        <span className="icon__placeholder" /> Apple Calendar
+        {icons && <IoLogoApple className="w-4" />} <span className="ml-2 icon__placeholder" /> Apple Calendar
       </a>
 
       <a
@@ -33,7 +40,7 @@ export default function Tooltip({ calendarEvent }: AddToCalendarButtonTooltipPro
         target="_blank" rel="noopener noreferrer"
         className={listCls}
         data-testid="calendar-provider-link">
-        <span className="icon__placeholder" /> Yahoo Calendar
+        {icons && <TbBrandYahoo className="w-4" />} <span className="ml-2 icon__placeholder" /> Yahoo Calendar
       </a>
 
       <a
@@ -42,7 +49,7 @@ export default function Tooltip({ calendarEvent }: AddToCalendarButtonTooltipPro
         rel="noopener noreferrer"
         className={listCls}
         data-testid="calendar-provider-link">
-        <span className="icon__placeholder" /> Outlook Calendar
+        {icons && <PiMicrosoftOutlookLogoBold className="w-4" />} <span className="ml-2 icon__placeholder" /> Outlook Calendar
       </a>
     </div>
   );

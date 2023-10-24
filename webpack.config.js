@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = (_webpackConfigEnv, _argv) => {
   const defaultConfig = {
-    entry:  './src/infini-react-add-to-calendar.tsx',
+    entry:  './src/index.tsx',
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'index.js',

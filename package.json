@@ -2,7 +2,7 @@
   "name": "@infini-ui/react-add-to-calendar",
   "description": "Customizable react button component",
   "author": "Drew Stephenson",
-  "version": "0.1.55",
+  "version": "0.1.69",
   "main": "dist/infini-react-add-to-calendar.js",
   "module": "dist/infini-react-add-to-calendar.js",
   "types": "decs.d.ts",
@@ -12,7 +12,7 @@
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
-    "build:tailwind": "npx tailwindcss -i ./src/styles/tailwinds.css -o ./dist/infini-ui.tailwind.css",
+    "build:tailwind": "npx tailwindcss -i ./styles/tailwinds.css -o ./dist/infini-ui.tailwind.css",
     "analyze": "webpack --mode=production --env analyze",
     "lint": "eslint src --ext js,ts,tsx",
     "format": "prettier --write .",
@@ -21,10 +21,11 @@
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
     "build:types": "tsc",
-    "storybook": "concurrently --kill-others \"npx tailwindcss -i ./src/styles/tailwinds.css -o ./dist/infini-ui.tailwind.css --watch\" \"storybook dev -p 6006\"",
+    "storybook": "concurrently --kill-others \"npx tailwindcss -i ./styles/tailwinds.css -o ./dist/infini-ui.tailwind.css --watch\" \"storybook dev -p 6006\"",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "update-browsers" : "npx update-browserslist-db@latest"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",
@@ -99,7 +100,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
-    "tailwind-merge": "^1.14.0"
+    "tailwind-merge": "^1.14.0",
+    "react-icons": "^4.11.0"
   },
   "repository": {
     "type": "git",

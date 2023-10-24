@@ -1,1 +1,1 @@
-export * from './src/infini-react-add-to-calendar';
+export * from './src/index';

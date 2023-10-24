@@ -29,10 +29,16 @@
       "@assets/*": [
         "assets/*"
       ],
+      "@stories/*": [
+        "stories/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
     }
   },
   "files": [
-    "src/infini-react-add-to-calendar.tsx"
+    "src/index.tsx"
   ],
   "include": [
     "src/**/*", "decs.d.ts"
