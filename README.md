@@ -42,7 +42,7 @@
   </p>
 </div>
 
-
+![infini-ui-react-add-to-cal_logos](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/5e5613ab-ac1f-4647-83a7-bcb2386d6582)
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -87,12 +87,14 @@ import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
 
 const DELTA_DAYS = 1;
+
 const event: ICalendarEvent = {
     title: " Your event title ",
     description: " This is your event description ",
     startDate: new Date(),
     endDate: new Date(new Date().setDate(new Date().getDate() + DELTA_DAYS )),
-    address: "1234 Infini UI Lane, Atlanta, Ga 12345"
+    address: "1234 Infini UI Lane, Atlanta, Ga 12345",
+    showBrandIcons: true
 }
 
 <AddToCalendarButton calendarEvent={event} />
@@ -131,25 +133,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -157,6 +140,12 @@ Distributed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please message me via email or linked-in.
 
 
 <!-- CONTACT -->
@@ -165,9 +154,6 @@ Distributed under the MIT License.
 Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) - drew@iamdrewstephenson.com
 
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
-
-
-Project : [https://github.com/Drewskee/react-add-to-calendar](https://github.com/Drewskee/react-add-to-calendar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
