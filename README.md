@@ -42,7 +42,7 @@
   </p>
 </div>
 
-![infini-ui-react-add-to-cal_logos_3d](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/9353ef11-dcb3-4bb3-b362-8f5e66969d5a)
+![infini-ui-react-add-to-cal](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/35d3a531-1b47-4443-ab88-c44cfa218604)
 
 
 <!-- TABLE OF CONTENTS -->
