@@ -85,7 +85,7 @@ npm install @infini-ui/react-add-to-calendar --save
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ABOUT THE PROJECT -->
+<!-- SAMPLE CODE -->
 ## Example
 
 ```
