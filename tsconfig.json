@@ -20,6 +20,9 @@
     "noEmit": false,
     "baseUrl": "./src",
     "paths": {
+      "@/*": [
+        "/*"
+      ],
       "@components/*": [
         "components/*"
       ],

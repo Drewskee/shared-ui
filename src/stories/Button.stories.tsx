@@ -12,7 +12,7 @@ const meta = {
     layout: 'centered',
     controls: {
       exclude: 'aria-disabled',
-      include : /(?:\b|')(variant|disabled|text|brandColor)(?:\b|')/
+      include: /(?:\b|')(variant|disabled|text|brandColor)(?:\b|')/
     }
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
@@ -22,7 +22,7 @@ const meta = {
     text: { control: 'text' },
     disabled: { control: 'boolean' },
     onClick: () => console.log("infini-ui"),
-    brandColor: {options: [ColorKey.primary, ColorKey.secondary, ColorKey.white, ColorKey.red, ColorKey.tertiary] },
+    brandColor: { options: [ColorKey.primary, ColorKey.secondary, ColorKey.white, ColorKey.tertiary] },
     variant: {
       options: [ButtonVariant.filled, ButtonVariant.outlined, ButtonVariant.ghost],
       defaultValue: ButtonVariant.filled,
@@ -47,13 +47,13 @@ export const Primary: Story = {
   },
 };
 
-export const Secondary: Story = {
+export const Empty: Story = {
   args: {
     dataTestId: "test-id",
     classOverrides: '',
     disabled: false,
     onClick: () => alert("You Clicked Me"),
-    variant: ButtonVariant.filled,
+    variant: ButtonVariant.ghost,
     brandColor: ColorKey.secondary,
     text: "Make A Payment",
   },
@@ -67,18 +67,6 @@ export const Light: Story = {
     onClick: () => alert("You Clicked Me"),
     variant: ButtonVariant.filled,
     brandColor: ColorKey.white,
-    text: "Make A Payment",
-  },
-};
-
-export const Urgent: Story = {
-  args: {
-    dataTestId: "test-id",
-    classOverrides: '',
-    disabled: false,
-    onClick: () => alert("You Clicked Me"),
-    variant: ButtonVariant.filled,
-    brandColor: ColorKey.red,
     text: "Make A Payment",
   },
 };

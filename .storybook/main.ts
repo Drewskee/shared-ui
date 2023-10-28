@@ -31,7 +31,6 @@ const config: StorybookConfig = {
   },
   staticDirs: ["./public"],
   webpackFinal: async (config: any) => {
-    // TODO make sure tailwind works 👈
     config.resolve.alias = {
       ...config.resolve.alias,
       "@components": path.resolve(__dirname, "../src/components/"),

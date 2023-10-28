@@ -2,6 +2,8 @@ const path = require('path');
 
 module.exports = (_webpackConfigEnv, _argv) => {
   const defaultConfig = {
+    orgName: "infini-ui",
+    projectName: "react-add-to-caldendar",
     entry:  './src/index.tsx',
     output: {
       path: path.resolve(__dirname, 'dist'),
@@ -15,7 +17,7 @@ module.exports = (_webpackConfigEnv, _argv) => {
   defaultConfig.resolve.extensions = [".ts", ".tsx", ".js"];
   defaultConfig.resolve.alias = {
     "@components": path.resolve(__dirname, "./components"),
-    "@src": path.resolve(__dirname, "./src"),
+    "@": path.resolve(__dirname, "./src"),
   };
 
   defaultConfig.module.rules = [

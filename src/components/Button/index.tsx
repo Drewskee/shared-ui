@@ -6,6 +6,8 @@ import classnames from 'classnames';
 import type { IButton } from './types';
 import { IButtonStyleDict } from './types';
 import { styleDictionary } from './const';
+import { cn } from './../../utils/helpers';
+
 
 const Button = ({
   dataTestId,
@@ -44,6 +46,7 @@ const Button = ({
     setFocused(false)
   }
 
+  cn
   return (
     <button
       ref={btnRef}
@@ -61,7 +64,7 @@ const Button = ({
         ), classOverrides)
       }
     >
-      {startIcon && startIcon} <span>{text}</span> {endIcon && endIcon}
+      <span className="mr-2">{startIcon && startIcon}</span> <span>{text}</span> {endIcon && endIcon}
     </button>
   );
 };

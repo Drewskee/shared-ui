@@ -1,8 +1,3 @@
-export const DARK = 'dark';
-export const LIGHT = 'light';
-
-export const localStorageThemeKey = 'theme';
-
 export const BREAKPOINTS = {
   sm: 640,
   md: 768,

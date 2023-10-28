@@ -2,8 +2,7 @@ import { ReactSVG } from 'react-svg';
 
 import { twMerge } from 'tailwind-merge';
 
-import appleIcon from './svg_icons/apple.svg';
-import wifiIcon from './svg_icons/wifi_icon.svg';
+// TODO create custom icons
 
 interface IIconFactory {
   name?: string;
@@ -14,10 +13,7 @@ interface IIconFactory {
 const infiniUiIcons = (props: IIconFactory) => {
   const { name, color, classOverrides = '' } = props;
 
-  const iconMap: Record<string, any> = {
-    "apple": appleIcon,
-    "wifiIcon": wifiIcon,
-  };
+  const iconMap: Record<string, any> = {};
 
   if (!name) return <></>;
 

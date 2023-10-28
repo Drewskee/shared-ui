@@ -49,23 +49,6 @@ export const styleDictionary: IButtonStyleDict[] = [
         base: "text-white bg-transparent hover:text-white hover:border-2 hover:border-white",
         active: "focus:bg-transparent focus:ring-white border-2 border-white"
     },
-
-    {
-        palette: ColorKey.red, variant: ButtonVariant.filled,
-        base: "text-black bg-red-400 hover:bg-brand-secondaryHover border-2 border-brand-secondary hover:border-brand-secondaryHover",
-        active: "focus:bg-red-400 focus:ring-bg-brand-secondaryHover focus:border-brand-secondaryHover"
-    },
-    {
-        palette: ColorKey.red, variant: ButtonVariant.outlined,
-        base: "text-brand-secondary border-brand-secondary border-2 bg-transparent hover:border-brand-secondaryHover hover:text-brand-secondaryHover",
-        active: "text-black hover:text-black focus:bg-brand-secondary focus:ring-brand-secondaryHover border-brand-secondaryHover"
-    },
-    {
-        palette: ColorKey.red, variant: ButtonVariant.ghost,
-        base: "text-brand-secondary bg-transparent hover:text-brand-secondaryHover",
-        active: "focus:bg-transparent focus:ring-brand-secondaryHover border-2 border-brand-secondaryHover"
-    },
-
     {
         palette: ColorKey.default, variant: ButtonVariant.filled,
         base: "",
