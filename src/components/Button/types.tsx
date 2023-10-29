@@ -3,7 +3,6 @@ import { ComponentPropsWithoutRef } from 'react';
 export interface IButtonStory {
   classOverrides?: string;
   dataTestId: string;
-  isLoading?: boolean;
   variant?: ButtonVariant;
   brandColor?: ColorKey;
   text: string;
@@ -30,7 +29,6 @@ export enum ColorKey {
   tertiary = "tertiary",
   default = "default",
   white = "white",
-  red = "red"
 };
 
 export enum ButtonVariant {

@@ -12,22 +12,10 @@ module.exports = {
         black: '#171717',
         white: '#eef1f4',
         brand: {
-          default: '#e3e3e3', // => .bg-brand-default
-          primary: "#4672FE", // blue 500 // => .bg-brand-primary 
-          primaryHover : "#2a4498", // blue 700
-          primaryDisabled : "#5e5e5e", // gray 600
-
-          secondary: "#f55560", // peach 500 // => .bg-brand-secondary
-          secondaryHover: "#f77780", // peach 400 // => .bg-brand-secondaryHover
-          secondaryDisabled: "#5e5e5e", // gray 600 // => .bg-brand-secondaryDisabled
-
-          tertiary: "#be5ec8", // purple 500 // => .bg-brand-tertiary
-          tertiaryHover: "#723878", // purple 700 // => .bg-brand-tertiary
-          tertiaryDisabled: "#5e5e5e", // gray 600 // => .bg-brand-tertiary
-
-          ghost: "#6b8efe", // blue 400 // => .bg-brand-tertiary
-          ghostHover: "#4672FE", // blue 700 // => .bg-brand-tertiary
-          ghostDisabled: "#5e5e5e", // gray 600 // => .bg-brand-tertiary
+          default: '#e3e3e3',
+          primary: "#4672FE",
+          primaryHover : "#2a4498",
+          primaryDisabled : "#5e5e5e", 
         },
         peach: {
           50: '#feeeef',
@@ -145,10 +133,6 @@ module.exports = {
         '72': '18rem',
         '80': '20rem',
         '96': '24rem',
-      },
-      backgroundImage: {
-        'gradient-radial':
-          'radial-gradient(247.96% 225.93% at 179.59% 120.78%, #EF303D 0%, #073EEC 100%)',
       },
       keyframes: {
           slideIn: {

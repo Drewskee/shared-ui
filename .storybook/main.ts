@@ -6,11 +6,10 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
     "@storybook/addon-designs",
-    "storybook-addon-themes",
     "@storybook/addon-styling",
+    "storybook-addon-themes"
   ],
   typescript: {
     reactDocgen: "react-docgen-typescript",
@@ -31,7 +30,6 @@ const config: StorybookConfig = {
   },
   staticDirs: ["./public"],
   webpackFinal: async (config: any) => {
-    // TODO make sure tailwind works 👈
     config.resolve.alias = {
       ...config.resolve.alias,
       "@components": path.resolve(__dirname, "../src/components/"),
