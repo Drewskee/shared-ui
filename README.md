@@ -19,6 +19,7 @@
 <br />
 
 
+![infini_ui_storybook](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/9307f9d7-6606-40a2-97d0-33e4c52254ad)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -101,6 +102,8 @@ const event: ICalendarEvent = {
 
 ## Component API  
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+
+Using tailwind by default
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
