@@ -140,6 +140,11 @@ export enum IButtonVariant {
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Testing Your Changes
+
+```
+npm run storybook
+```
 
 <!-- ROADMAP -->
 ## Roadmap
