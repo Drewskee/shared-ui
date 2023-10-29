@@ -34,7 +34,7 @@
     <a href="https://653da60659baa1a4a87a42b4-bovhsyrref.chromatic.com/?path=/docs/atoms-add-to-calendar--docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Drewskee/react-add-to-calendar">View Demo</a>
+    <a href="https://653da60659baa1a4a87a42b4-bovhsyrref.chromatic.com/?path=/story/atoms-add-to-calendar--primary">View Demo</a>
     ·
     <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Report Bug</a>
     ·
