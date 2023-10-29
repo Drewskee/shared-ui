@@ -20,8 +20,12 @@
 
 
 <!-- PROJECT LOGO -->
+![infini-ui-react-add-to-cal](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/91aae757-2e04-4665-a066-51892db613b1)
 
 <br />
+
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://cdn-icons-png.flaticon.com/512/42/42953.png" alt="Logo" width="80" height="80">
@@ -32,8 +36,6 @@
   <p align="center">
     An awesome add to calendar button to help you get back to the important things
     <br />
-    [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
-    <br />
     <br />
     <a href="https://653da60659baa1a4a87a42b4-bovhsyrref.chromatic.com/?path=/story/atoms-add-to-calendar--primary">View Demo</a>
     ·
@@ -42,8 +44,6 @@
     <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Request Feature</a>
   </p>
 </div>
-
-![infini-ui-react-add-to-cal](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/91aae757-2e04-4665-a066-51892db613b1)
 
 <!-- TABLE OF CONTENTS -->
 <details>
