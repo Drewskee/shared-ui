@@ -31,7 +31,7 @@
     An awesome add to calendar button to help you get back to the important things
     <br />
     <br />
-    <a href="https://653da60659baa1a4a87a42b4-bovhsyrref.chromatic.com/?path=/story/atoms-add-to-calendar--primary">View Demo</a>
+    <a href="https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/story/atoms-add-to-calendar--ghost">View Demo</a>
     ·
     <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Report Bug</a>
     ·
@@ -101,7 +101,7 @@ const event: ICalendarEvent = {
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Component API  
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 
 Using tailwind by default
 
