@@ -111,7 +111,6 @@ const event: ICalendarEvent = {
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `calendarEvent` | `ICalendarEvent` | **Required** |
-| `brandColor` | `ColorKey` |  |
 | `variant` | `IButtonVariant` | optional |
 | `startIcon` | `JSX.Elemnent` | optional - defaults to plus sign |
 | `wrapperCls` | `string` | optional - applys class name values to wrapper of entire widget |
@@ -137,18 +136,6 @@ export enum IButtonVariant {
   filled = "filled",
   ghost = "ghost",
 }
-
-(optional)
-
-export enum ColorKey {
-  primary = "primary",
-  secondary = "secondary",
-  tertiary = "tertiary",
-  default = "default",
-  white = "white",
-};
-
-
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -193,9 +180,9 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTACT -->
 ## Contact
-
 Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) - drew@iamdrewstephenson.com
 
 [![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
