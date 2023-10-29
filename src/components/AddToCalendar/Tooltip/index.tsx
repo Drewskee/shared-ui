@@ -9,15 +9,16 @@ interface AddToCalendarButtonTooltipProps {
   calendarEvent: ICalendarEvent;
   tooltipItemsCls?: string;
   tooltipListWrapperCls?: string;
+  showBrandIcons:boolean;
 }
 
-export default function Tooltip({ calendarEvent, tooltipItemsCls = '', tooltipListWrapperCls = '' }: AddToCalendarButtonTooltipProps) {
+export default function Tooltip({ calendarEvent, showBrandIcons, tooltipItemsCls = '', tooltipListWrapperCls = '' }: AddToCalendarButtonTooltipProps) {
   const listItemCls = "relative flex h-[100%] items-center w-full px-4 py-2 text-sm font-medium border-b border-gray-200 rounded-t-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 text-black dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
   if (!calendarEvent) return (<>
     <div>No event found</div>
   </>)
 
-  const icons = !!calendarEvent.showBrandIcons;
+  const icons = !!showBrandIcons;
 
   return (
     <div className={cn("flex-col mt-2 rounded-lg overflow-hidden group-focus-within:block list-none absolute bg-gray-50 w-48 z-1 shadow-lg animate-slideIn", tooltipListWrapperCls)} data-testid="add-to-calendar-button-tooltip">

@@ -1,3 +1,3 @@
 export { default as AddToCalendarButton } from "./components/AddToCalendar";
 export { default as Button } from "./components/Button";
-export type { ICalendarEvent, IButtonVariant } from './components/shared.types';
+export type { ICalendarEvent, ButtonVariant } from './components/shared.types';

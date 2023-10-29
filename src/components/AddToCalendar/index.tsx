@@ -1,6 +1,6 @@
 import React from "react";
 import Tooltip from "./Tooltip";
-import { IButtonVariant, ColorKey } from './../shared.types';
+import { ButtonVariant, ColorKey } from './../shared.types';
 import { IoIosAddCircleOutline } from 'react-icons/io';
 import Button from "./../Button";
 import { cn } from './../../utils/helpers';
@@ -12,7 +12,6 @@ export interface ICalendarEvent {
     endDate?: Date;
     durationInMinutes?: number;
     address?: string;
-    showBrandIcons?: boolean;
 }
 
 interface AddToCalendarButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -24,8 +23,9 @@ interface AddToCalendarButtonProps extends React.ButtonHTMLAttributes<HTMLButton
     tooltipListWrapperCls?: string;
     tooltipListItemCls?: string;
     startIcon?: JSX.Element;
-    variant?: IButtonVariant;
+    variant?: ButtonVariant;
     brandColor?: ColorKey;
+    showBrandIcons?: boolean;
 }
 
 export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
@@ -38,9 +38,10 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
         tooltipListWrapperCls = "",
         tooltipListItemCls = "",
         startIcon,
-        variant = IButtonVariant.ghost,
+        variant = ButtonVariant.ghost,
         brandColor = ColorKey.default,
         disabled,
+        showBrandIcons = true
     } = props;
     const [isTooltipVisible, setIsTooltipVisible] = React.useState(false);
 
@@ -62,7 +63,8 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
             {isTooltipVisible && (
                 <Tooltip calendarEvent={calendarEvent}
                     tooltipItemsCls={tooltipListItemCls}
-                    tooltipListWrapperCls={tooltipListWrapperCls} />)}
+                    tooltipListWrapperCls={tooltipListWrapperCls}
+                    showBrandIcons={showBrandIcons} />)}
         </div>
     );
 }
