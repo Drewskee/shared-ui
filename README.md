@@ -114,13 +114,46 @@ const event: ICalendarEvent = {
 ## Component API  
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 
-```
-
-
-
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `api_key` | `string` | **Required**. Your Gophish API key |
+| `calendarEvent` | `ICalendarEvent` | **Required** |
+| `brandColor` | `ColorKey` |  |
+| `variant` | `IButtonVariant` | optional |
+| `startIcon` | `JSX.Elemnent` | optional - defaults to plus sign |
+| `wrapperCls` | `string` | optional - applys class name values to wrapper of entire widget |
+| `buttonCls` | `string` | optional - applys class name values to initial button |
+| `tooltipListWrapperCls` | `string` | optional - applys class name button dropdown list |
+| `tooltipListItemCls` | `string` | optional - applys class name individual items in dropdown |
+
+
+```
+
+interface ICalendarEvent {
+    title: string;
+    description: string;
+    startDate: Date;
+    endDate?: Date;
+    durationInMinutes?: number;
+    address?: string;
+    showBrandIcons?: boolean;
+}
+
+export enum IButtonVariant {
+  outlined = "outlined",
+  filled = "filled",
+  ghost = "ghost",
+}
+
+(optional)
+
+export enum ColorKey {
+  primary = "primary",
+  secondary = "secondary",
+  tertiary = "tertiary",
+  default = "default",
+  white = "white",
+};
+
 
 ```
 
