@@ -25,7 +25,7 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic",
     "prepublish": "npm run build",
-    "update-browsers" : "npx update-browserslist-db@latest"
+    "update-browsers": "npx update-browserslist-db@latest"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",
@@ -56,7 +56,7 @@
     "@types/react-dom": "^17.0.20",
     "@types/testing-library__jest-dom": "^5.14.9",
     "babel-jest": "^27.5.1",
-    "chromatic": "^6.23.0",
+    "chromatic": "^6.24.1",
     "color": "^4.2.3",
     "concurrently": "^6.5.1",
     "cross-env": "^7.0.3",
@@ -99,9 +99,9 @@
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-is": "^18.2.0",
-    "tailwind-merge": "^1.14.0",
-    "react-icons": "^4.11.0"
+    "tailwind-merge": "^1.14.0"
   },
   "repository": {
     "type": "git",

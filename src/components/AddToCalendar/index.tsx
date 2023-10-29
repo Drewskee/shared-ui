@@ -21,7 +21,7 @@ interface AddToCalendarButtonProps extends React.ButtonHTMLAttributes<HTMLButton
     testId?: string;
     wrapperCls?: string;
     buttonCls?: string;
-    tooltipWrapperCls?: string;
+    tooltipItemsCls?: string;
     tooltipListWrapperCls?: string;
     tooltipListItemCls?: string;
     startIcon?: JSX.Element;
@@ -36,7 +36,7 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
         testId,
         wrapperCls = "",
         buttonCls = "",
-        tooltipWrapperCls = "",
+        tooltipItemsCls = "",
         tooltipListWrapperCls = "",
         startIcon,
         variant = ButtonVariant.ghost,
@@ -58,10 +58,10 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
     return (
         <div className={cn(wrapperCls)} data-testid={testId ? `${testId}-add-to-calendar-wrapper` : "add-to-calendar-wrapper"}>
             <Button variant={variant} brandColor={brandColor} classOverrides={cn(baseBtnCls, buttonCls)} onClick={handleClick} dataTestId="infini-ui-data-testid" text={buttonText} startIcon={startIcon || <IoIosAddCircleOutline className="w-4 text-[17px]" />}></Button>
-            
+
             {isTooltipVisible && (
                 <Tooltip calendarEvent={calendarEvent}
-                    tooltipWrapperCls={tooltipWrapperCls}
+                    tooltipItemsCls={tooltipItemsCls}
                     tooltipListWrapperCls={tooltipListWrapperCls} />)}
         </div>
     );
