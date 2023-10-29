@@ -25,10 +25,6 @@
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://cdn-icons-png.flaticon.com/512/42/42953.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Infini-Ui | React Add to Calendar Button</h3>
 
   <p align="center">
