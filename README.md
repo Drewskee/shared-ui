@@ -79,7 +79,7 @@ npm install @infini-ui/react-add-to-calendar --save
 ## Example
 
 ```
-import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
+import { AddToCalendarButton, ICalendarEvent  } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
 
 const DELTA_DAYS = 1;
