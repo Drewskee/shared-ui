@@ -10,10 +10,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 [![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
 [![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
+
 <br />
 
 
@@ -31,10 +32,10 @@
   <p align="center">
     An awesome add to calendar button to help you get back to the important things
     <br />
-    <a href="https://github.com/Drewskee/react-add-to-calendar"><strong>Explore the docs »</strong></a>
+    [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
     <br />
     <br />
-    <a href="https://github.com/Drewskee/react-add-to-calendar">View Demo</a>
+    <a href="https://653da60659baa1a4a87a42b4-bovhsyrref.chromatic.com/?path=/story/atoms-add-to-calendar--primary">View Demo</a>
     ·
     <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Report Bug</a>
     ·
@@ -42,7 +43,7 @@
   </p>
 </div>
 
-![infini-ui-react-add-to-cal_logos](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/5e5613ab-ac1f-4647-83a7-bcb2386d6582)
+![infini-ui-react-add-to-cal](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/91aae757-2e04-4665-a066-51892db613b1)
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -75,12 +76,19 @@
 
 [![React][React.js]][React-url]
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Installation
 
-<!-- ABOUT THE PROJECT -->
-## About
+ ```
+npm install @infini-ui/react-add-to-calendar --save
+```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SAMPLE CODE -->
+## Example
 
 ```
 import { AddToCalendarButton } from '@infini-ui/react-add-to-calendar';
@@ -98,23 +106,26 @@ const event: ICalendarEvent = {
 }
 
 <AddToCalendarButton calendarEvent={event} />
-```
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-### Installation
-
- ```
-npm install @infini-ui/react-add-to-calendar --save
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Component API  
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+
+```
+
+
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `api_key` | `string` | **Required**. Your Gophish API key |
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -145,9 +156,16 @@ Distributed under the MIT License.
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please message me via email or linked-in.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTACT -->
 ## Contact
 
