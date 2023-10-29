@@ -51,17 +51,17 @@ export const styleDictionary: IButtonStyleDict[] = [
     },
     {
         palette: ColorKey.default, variant: ButtonVariant.filled,
-        base: "",
-        active: ""
+        base: "text-white bg-black hover:bg-black border-2 border-black hover:border-black/50",
+        active: "focus:bg-black focus:ring-bg-black/50 focus:border-black/50"
     },
     {
         palette: ColorKey.default, variant: ButtonVariant.outlined,
-        base: "",
-        active: ""
+        base: "text-black border-black border-2 bg-transparent hover:border-black/50 hover:text-black/50",
+        active: "text-white hover:text-white/50 focus:bg-black focus:ring-black/50 border-black/50"
     },
     {
         palette: ColorKey.default, variant: ButtonVariant.ghost,
-        base: "",
-        active: ""
+        base: "text-black bg-transparent hover:text-black/50",
+        active: "focus:bg-transparent border-0"
     },
 ];

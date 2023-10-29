@@ -20,7 +20,7 @@ const meta = {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'centered',
     controls: {
-      exclude: 'aria-disabled',
+      exclude: /(?:\b|')(aria-disabled | brandColor)(?:\b|')/,
       // include: /(?:\b|')(variant|disabled|text|brandColor)(?:\b|')/
     }
   },
@@ -29,21 +29,16 @@ const meta = {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     disabled: { control: 'boolean' },
-    brandColor: {
-      options: [ColorKey.primary, ColorKey.white, ColorKey.tertiary], defaultValue: ColorKey.primary,
-      control: 'select'
-    },
+    showBrandIcons: { control: 'boolean', defaultValue: true },
     variant: {
       options: [ButtonVariant.filled, ButtonVariant.outlined, ButtonVariant.ghost],
       defaultValue: ButtonVariant.ghost,
       control: 'select'
     },
-    wrapperCls: { control: 'text', defaultValue : "using tailwind.. ." },
-    buttonCls: { control: 'text', defaultValue : "using tailwind.. ."  },
-    tooltipItemsCls: { control: 'text', defaultValue : "using tailwind.. ."  },
-    tooltipListWrapperCls: { control: 'text', defaultValue : "using tailwind.. ."  },
-    tooltipListItemCls: { control: 'text', defaultValue : "using tailwind.. ."  }
-
+    wrapperCls: { control: 'text', defaultValue: "using tailwind.. ." },
+    buttonCls: { control: 'text', defaultValue: "using tailwind.. ." },
+    tooltipListWrapperCls: { control: 'text', defaultValue: "using tailwind.. ." },
+    tooltipListItemCls: { control: 'text', defaultValue: "using tailwind.. ." }
   },
 } satisfies Meta<typeof AddToCal>;
 
@@ -51,29 +46,25 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Primary: Story = {
+export const Ghost: Story = {
   args: {
     disabled: false,
-    onClick: () => alert("You Clicked Me"),
     calendarEvent: event
   },
 };
 
+export const Outlined: Story = {
+  args: {
+    disabled: false,
+    calendarEvent: event,
+    variant: ButtonVariant.outlined
+  },
+};
 
-// calendarEvent: { control: 'object', defaultValue: event },
-//     brandColor: {
-//       options: [ColorKey.primary, ColorKey.secondary, ColorKey.white, ColorKey.tertiary], defaultValue: ColorKey.primary,
-//       control: 'select'
-//     },
-//     variant: {
-//       options: [ButtonVariant.filled, ButtonVariant.outlined, ButtonVariant.ghost],
-//       defaultValue: ButtonVariant.ghost,
-//       control: 'select'
-//     },
-//     testId: { control: 'text' },
-//     wrapperCls: { control: 'text' },
-//     buttonCls: { control: 'text' },
-//     tooltipItemsCls: { control: 'text' },
-//     tooltipListWrapperCls: { control: 'text' },
-//     tooltipListItemCls: { control: 'text' }
-
+export const Filled: Story = {
+  args: {
+    disabled: false,
+    calendarEvent: event,
+    variant: ButtonVariant.filled
+  },
+};

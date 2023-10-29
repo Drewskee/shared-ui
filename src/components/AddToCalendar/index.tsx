@@ -12,7 +12,6 @@ export interface ICalendarEvent {
     endDate?: Date;
     durationInMinutes?: number;
     address?: string;
-    showBrandIcons?: boolean;
 }
 
 interface AddToCalendarButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -21,12 +20,12 @@ interface AddToCalendarButtonProps extends React.ButtonHTMLAttributes<HTMLButton
     testId?: string;
     wrapperCls?: string;
     buttonCls?: string;
-    tooltipItemsCls?: string;
     tooltipListWrapperCls?: string;
     tooltipListItemCls?: string;
     startIcon?: JSX.Element;
     variant?: ButtonVariant;
     brandColor?: ColorKey;
+    showBrandIcons?: boolean;
 }
 
 export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
@@ -36,12 +35,13 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
         testId,
         wrapperCls = "",
         buttonCls = "",
-        tooltipItemsCls = "",
         tooltipListWrapperCls = "",
+        tooltipListItemCls = "",
         startIcon,
         variant = ButtonVariant.ghost,
-        brandColor = ColorKey.primary,
+        brandColor = ColorKey.default,
         disabled,
+        showBrandIcons = true
     } = props;
     const [isTooltipVisible, setIsTooltipVisible] = React.useState(false);
 
@@ -62,8 +62,9 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
 
             {isTooltipVisible && (
                 <Tooltip calendarEvent={calendarEvent}
-                    tooltipItemsCls={tooltipItemsCls}
-                    tooltipListWrapperCls={tooltipListWrapperCls} />)}
+                    tooltipItemsCls={tooltipListItemCls}
+                    tooltipListWrapperCls={tooltipListWrapperCls}
+                    showBrandIcons={showBrandIcons} />)}
         </div>
     );
 }

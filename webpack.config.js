@@ -3,7 +3,6 @@ const path = require('path');
 module.exports = (_webpackConfigEnv, _argv) => {
   const defaultConfig = {
     orgName: "infini-ui",
-    projectName: "react-add-to-caldendar",
     entry:  './src/index.tsx',
     output: {
       path: path.resolve(__dirname, 'dist'),
