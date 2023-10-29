@@ -63,7 +63,7 @@
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-ts-react-important-stuff": "^3.0.0",
-    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-storybook": "^0.6.13",
     "flowbite": "^1.8.1",
     "flowbite-typography": "^1.0.3",
