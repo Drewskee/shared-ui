@@ -8,7 +8,8 @@ const event: ICalendarEvent = {
   description: " This is your event description ",
   startDate: new Date(),
   endDate: new Date(new Date().setDate(new Date().getDate() + DELTA_DAYS)),
-  address: "1234 Infini UI Lane, Atlanta, Ga 12345"
+  address: "1234 Infini UI Lane, Atlanta, Ga 12345",
+  showBrandIcons : true
 }
 
 // exclude:/.*/g
