@@ -31,7 +31,7 @@
   <p align="center">
     An awesome add to calendar button to help you get back to the important things
     <br />
-    <a href="https://github.com/Drewskee/react-add-to-calendar"><strong>Explore the docs »</strong></a>
+    <a href="[https://github.com/Drewskee/react-add-to-calendar](https://653da60659baa1a4a87a42b4-bovhsyrref.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Drewskee/react-add-to-calendar">View Demo</a>
