@@ -25,7 +25,7 @@
 <br />
 
 <div align="center">
-  <h3 align="center">Infini-Ui | React Add to Calendar Button</h3>
+  <h3 align="center">React Add to Calendar</h3>
 
   <p align="center">
     An awesome add to calendar button to help you get back to the important things
