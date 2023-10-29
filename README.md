@@ -11,7 +11,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![HitCount](https://hits.dwyl.com/{username}/{project-name}.svg)](https://hits.dwyl.com/{username}/{project-name})
+[![HitCount](https://hits.dwyl.com/Drewskee/react-add-to-calendar.svg)](https://hits.dwyl.com/Drewskee/react-add-to-calendar)
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 
