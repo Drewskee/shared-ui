@@ -58,7 +58,7 @@
     "babel-jest": "^27.5.1",
     "chromatic": "^7.5.4",
     "color": "^4.2.3",
-    "concurrently": "^6.5.1",
+    "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
