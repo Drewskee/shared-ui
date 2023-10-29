@@ -10,7 +10,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+
 [![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
 [![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
@@ -20,8 +20,6 @@
 
 
 <!-- PROJECT LOGO -->
-![infini-ui-react-add-to-cal](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/91aae757-2e04-4665-a066-51892db613b1)
-
 <br />
 
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-xvmjiyxsie.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
