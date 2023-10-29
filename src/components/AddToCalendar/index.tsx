@@ -40,7 +40,8 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
         tooltipListWrapperCls = "",
         startIcon,
         variant = ButtonVariant.ghost,
-        brandColor = ColorKey.primary
+        brandColor = ColorKey.primary,
+        disabled,
     } = props;
     const [isTooltipVisible, setIsTooltipVisible] = React.useState(false);
 
@@ -57,7 +58,7 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
 
     return (
         <div className={cn(wrapperCls)} data-testid={testId ? `${testId}-add-to-calendar-wrapper` : "add-to-calendar-wrapper"}>
-            <Button variant={variant} brandColor={brandColor} classOverrides={cn(baseBtnCls, buttonCls)} onClick={handleClick} dataTestId="infini-ui-data-testid" text={buttonText} startIcon={startIcon || <IoIosAddCircleOutline className="w-4 text-[17px]" />}></Button>
+            <Button disabled={disabled} variant={variant} brandColor={brandColor} classOverrides={cn(baseBtnCls, buttonCls)} onClick={handleClick} dataTestId="infini-ui-data-testid" text={buttonText} startIcon={startIcon || <IoIosAddCircleOutline className="w-4 text-[17px]" />}></Button>
 
             {isTooltipVisible && (
                 <Tooltip calendarEvent={calendarEvent}
