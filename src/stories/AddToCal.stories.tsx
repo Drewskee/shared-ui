@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import AddToCal, { ICalendarEvent } from '../components/AddToCalendar';
-import { ColorKey, ButtonVariant } from '../components/shared.types';
+import { ColorKey, IButtonVariant } from '../components/shared.types';
 
 const DELTA_DAYS = 2;
 const event: ICalendarEvent = {
@@ -34,13 +34,12 @@ const meta = {
       control: 'select'
     },
     variant: {
-      options: [ButtonVariant.filled, ButtonVariant.outlined, ButtonVariant.ghost],
-      defaultValue: ButtonVariant.ghost,
+      options: [IButtonVariant.filled, IButtonVariant.outlined, IButtonVariant.ghost],
+      defaultValue: IButtonVariant.ghost,
       control: 'select'
     },
     wrapperCls: { control: 'text', defaultValue : "using tailwind.. ." },
     buttonCls: { control: 'text', defaultValue : "using tailwind.. ."  },
-    tooltipItemsCls: { control: 'text', defaultValue : "using tailwind.. ."  },
     tooltipListWrapperCls: { control: 'text', defaultValue : "using tailwind.. ."  },
     tooltipListItemCls: { control: 'text', defaultValue : "using tailwind.. ."  }
 
@@ -66,8 +65,8 @@ export const Primary: Story = {
 //       control: 'select'
 //     },
 //     variant: {
-//       options: [ButtonVariant.filled, ButtonVariant.outlined, ButtonVariant.ghost],
-//       defaultValue: ButtonVariant.ghost,
+//       options: [IButtonVariant.filled, IButtonVariant.outlined, IButtonVariant.ghost],
+//       defaultValue: IButtonVariant.ghost,
 //       control: 'select'
 //     },
 //     testId: { control: 'text' },

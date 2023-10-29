@@ -3,7 +3,7 @@ import { ComponentPropsWithoutRef } from 'react';
 export interface IButtonStory {
   classOverrides?: string;
   dataTestId: string;
-  variant?: ButtonVariant;
+  variant?: IButtonVariant;
   brandColor?: ColorKey;
   text: string;
   startIcon?: JSX.Element;
@@ -15,7 +15,7 @@ export interface IButton extends ComponentPropsWithoutRef<'button'> {
   classOverrides?: string;
   dataTestId: string;
   isLoading?: boolean;
-  variant?: ButtonVariant;
+  variant?: IButtonVariant;
   brandColor?: ColorKey;
   text: string;
   startIcon?: JSX.Element;
@@ -31,7 +31,7 @@ export enum ColorKey {
   white = "white",
 };
 
-export enum ButtonVariant {
+export enum IButtonVariant {
   outlined = "outlined",
   filled = "filled",
   ghost = "ghost",
@@ -40,7 +40,7 @@ export enum ButtonVariant {
 
 export interface IButtonStyleDict {
   palette: ColorKey,
-  variant: ButtonVariant,
+  variant: IButtonVariant,
   base: string;
   active: string;
   disabled?: string;
