@@ -11,7 +11,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=master)](https://travis-ci.org/Drewskee/react-add-to-calendar)
+[![Build Status](https://travis-ci.org/Drewskee/react-add-to-calendar.svg?branch=main)](https://travis-ci.org/Drewskee/react-add-to-calendar)
 [![codecov](https://codecov.io/gh/Drewskee/react-add-to-calendar/branch/master/graph/badge.svg)](https://codecov.io/gh/Drewskee/react-add-to-calendar)
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
@@ -63,11 +63,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
-### Built With
-
-[![React][React.js]][React-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
