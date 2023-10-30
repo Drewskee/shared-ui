@@ -77,9 +77,10 @@ npm install @infini-ui/react-add-to-calendar --save
 
 <!-- SAMPLE CODE -->
 ## Example
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 
 ```
-import { AddToCalendarButton, ICalendarEvent  } from '@infini-ui/react-add-to-calendar';
+import { AddToCalendarButton, ICalendarEvent, IButtonVariant } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
 
 const DELTA_DAYS = 1;
@@ -93,9 +94,11 @@ const event: ICalendarEvent = {
     showBrandIcons: true
 }
 
-<AddToCalendarButton calendarEvent={event} />
+<AddToCalendarButton calendarEvent={event} variant={IButtonVariant.filled} />
 
 ```
+
+`by default the button variant will be IButtonVariant.ghost`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,9 +117,7 @@ Using tailwind by default
 | `tooltipListWrapperCls` | `string` | optional - applys class name button dropdown list |
 | `tooltipListItemCls` | `string` | optional - applys class name individual items in dropdown |
 
-
 ```
-
 interface ICalendarEvent {
     title: string;
     description: string;
