@@ -13,7 +13,7 @@
 
 
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/story/infiniui-add-to-calendar-button--configurable-calendar-options&args=calendarOptions[0]:Apple;calendarOptions[1]:Google;calendarOptions[2]:Outlook;calendarOptions[3]:Yahoo)
 
 <br />
 
@@ -77,7 +77,7 @@ npm install @infini-ui/react-add-to-calendar --save
 
 <!-- SAMPLE CODE -->
 ## Example
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/story/infiniui-add-to-calendar-button--configurable-calendar-options&args=calendarOptions[0]:Apple;calendarOptions[1]:Google;calendarOptions[2]:Outlook;calendarOptions[3]:Yahoo)
 
 ```
 import { AddToCalendarButton, ICalendarEvent, IButtonVariant } from '@infini-ui/react-add-to-calendar';
@@ -103,7 +103,7 @@ const event: ICalendarEvent = {
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Component API  
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/docs/infiniui-add-to-calendar-button--docs)
 
 Using tailwind by default
 
