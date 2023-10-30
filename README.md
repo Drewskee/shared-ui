@@ -148,8 +148,8 @@ npm run storybook
 
 - [x] Add Base Button Component
 - [x] Default Tailwind Compiler
-- [ ] Add Additional Templates w/ Examples
-- [ ] Tailwind Override Support with BEM class fallback
+- [x] Add Additional Templates w/ Examples [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+- [ ] Tailwind Override Support with BEM class fallback - in progress
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
     - [ ] Spanish
