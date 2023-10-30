@@ -2,7 +2,7 @@
   "name": "@infini-ui/react-add-to-calendar",
   "description": "Customizable react button component",
   "author": "Drew Stephenson",
-  "version": "0.1.79",
+  "version": "0.1.80",
   "main": "dist/infini-react-add-to-calendar.js",
   "module": "dist/infini-react-add-to-calendar.js",
   "types": "decs.d.ts",

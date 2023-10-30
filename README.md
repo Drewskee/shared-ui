@@ -30,7 +30,7 @@
     An awesome add to calendar button to help you get back to the important things
     <br />
     <br />
-    <a href="https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/story/atoms-add-to-calendar--ghost">View Demo</a>
+    <a href="https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/story/infiniui-add-to-calendar-button--configurable-calendar-options&args=calendarOptions[0]:Apple;calendarOptions[1]:Google;calendarOptions[2]:Outlook;calendarOptions[3]:Yahoo">View Demo</a>
     ·
     <a href="https://github.com/Drewskee/react-add-to-calendar/issues">Report Bug</a>
     ·
@@ -186,9 +186,13 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
-Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) - drew@iamdrewstephenson.com
 
-[![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson)
+[![Linked-in](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white.svg)](https://www.linkedin.com/in/andrew-tech-stephenson) 
+drew@iamdrewstephenson.com 
+
+Drew Stephenson - [@iamDrewStephenson](https://instagram.com/iamdrewstephenson) 
+Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
