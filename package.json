@@ -68,7 +68,7 @@
     "eslint-plugin-storybook": "^0.6.13",
     "flowbite": "^1.8.1",
     "flowbite-typography": "^1.0.3",
-    "husky": "^7.0.4",
+    "husky": "^8.0.3",
     "identity-obj-proxy": "^3.0.0",
     "path": "^0.12.7",
     "prettier": "^2.8.8",
