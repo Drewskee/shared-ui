@@ -17,8 +17,8 @@
 
 <br />
 
+![infini_ui_storybook_banner](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/b90f1a05-0a02-4383-86ba-c9f00800e81b)
 
-![infini_ui_storybook](https://github.com/Drewskee/react-add-to-calendar/assets/1480387/9307f9d7-6606-40a2-97d0-33e4c52254ad)
 
 <!-- PROJECT LOGO -->
 <br />
