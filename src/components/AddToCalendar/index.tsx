@@ -4,6 +4,7 @@ import { ButtonVariant, ColorKey } from './../shared.types';
 import { IoIosAddCircleOutline } from 'react-icons/io';
 import Button from "./../Button";
 import { cn } from './../../utils/helpers';
+import { ICalendarOption } from './Tooltip';
 
 export interface ICalendarEvent {
     title: string;
@@ -23,9 +24,11 @@ interface AddToCalendarButtonProps extends React.ButtonHTMLAttributes<HTMLButton
     tooltipListWrapperCls?: string;
     tooltipListItemCls?: string;
     startIcon?: JSX.Element;
+    endIcon?: JSX.Element;
     variant?: ButtonVariant;
     brandColor?: ColorKey;
     showBrandIcons?: boolean;
+    calendarOptions?: Array<ICalendarOption | string>
 }
 
 export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
@@ -41,7 +44,9 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
         variant = ButtonVariant.ghost,
         brandColor = ColorKey.default,
         disabled,
-        showBrandIcons = true
+        showBrandIcons = true,
+        endIcon,
+        calendarOptions
     } = props;
     const [isTooltipVisible, setIsTooltipVisible] = React.useState(false);
 
@@ -58,13 +63,14 @@ export default function AddToCalendarButton(props: AddToCalendarButtonProps) {
 
     return (
         <div className={cn(wrapperCls)} data-testid={testId ? `${testId}-add-to-calendar-wrapper` : "add-to-calendar-wrapper"}>
-            <Button disabled={disabled} variant={variant} brandColor={brandColor} classOverrides={cn(baseBtnCls, buttonCls)} onClick={handleClick} dataTestId="infini-ui-data-testid" text={buttonText} startIcon={startIcon || <IoIosAddCircleOutline className="w-4 text-[17px]" />}></Button>
+            <Button disabled={disabled} variant={variant} brandColor={brandColor} classOverrides={cn(baseBtnCls, buttonCls)} onClick={handleClick} dataTestId="infini-ui-data-testid" text={buttonText} startIcon={startIcon || <IoIosAddCircleOutline className="w-4 text-[17px]" />} endIcon={endIcon}></Button>
 
             {isTooltipVisible && (
                 <Tooltip calendarEvent={calendarEvent}
                     tooltipItemsCls={tooltipListItemCls}
                     tooltipListWrapperCls={tooltipListWrapperCls}
-                    showBrandIcons={showBrandIcons} />)}
+                    showBrandIcons={showBrandIcons}
+                    options={calendarOptions || [ICalendarOption.Apple, ICalendarOption.Google, ICalendarOption.Yahoo, ICalendarOption.Outlook]} />)}
         </div>
     );
 }

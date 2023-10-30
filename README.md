@@ -111,11 +111,13 @@ Using tailwind by default
 | :--- | :--- | :--- |
 | `calendarEvent` | `ICalendarEvent` | **Required** |
 | `variant` | `IButtonVariant` | optional - default ( IButtonVariant.ghost ) |
+| `calendarOptions` | `Array<ICalendarOption | string>` | optional - default shows all opt keys of ICalendarOption |
 | `startIcon` | `JSX.Elemnent` | optional - defaults to plus sign |
 | `wrapperCls` | `string` | optional - applys class name values to wrapper of entire widget |
 | `buttonCls` | `string` | optional - applys class name values to initial button |
 | `tooltipListWrapperCls` | `string` | optional - applys class name button dropdown list |
 | `tooltipListItemCls` | `string` | optional - applys class name individual items in dropdown |
+
 
 ```
 interface ICalendarEvent {
@@ -133,6 +135,14 @@ export enum IButtonVariant {
   filled = "filled",
   ghost = "ghost",
 }
+
+export enum ICalendarOption {
+  Apple ="Apple",
+  Google = "Google",
+  Yahoo = "Yahoo",
+  Outlook = "Outlook",
+}
+
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -151,6 +161,7 @@ npm run storybook
 - [x] Add Additional Templates w/ Examples
 - [ ] Tailwind Override Support with BEM class fallback - in progress
 - [x] Add "components" document to easily copy & paste sections of the readme
+- [x] Configurable list of calendar events
 - [ ] Multi-language Support
     - [ ] Spanish
     - [ ] + more ([Request your language](https://github.com/othneildrew/Best-README-Template/issues)  )

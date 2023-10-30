@@ -15,7 +15,7 @@ module.exports = (_webpackConfigEnv, _argv) => {
   defaultConfig.resolve.extensions = [".ts", ".tsx", ".js"];
   defaultConfig.resolve.alias = {
     "@components": path.resolve(__dirname, "./components"),
-    "@": path.resolve(__dirname, "./src"),
+    "@": path.resolve(__dirname, "./"),
   };
 
   defaultConfig.module.rules = [
