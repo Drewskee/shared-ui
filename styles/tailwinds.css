@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Storybook */
+#anchor--infiniui-add-to-calendar-button--configurable-calendar-options .docs-story {
+    min-height: 400px;
+}
+
+#anchor--infiniui-add-to-calendar-button--configurable-calendar-options .docs-story>div {
+    min-height: 400px;
+}

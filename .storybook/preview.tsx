@@ -1,5 +1,7 @@
 import type { Preview } from "@storybook/react";
 import "../dist/infini-ui.tailwind.css";
+import { Title, Subtitle, Description, Primary, Controls } from '@storybook/blocks';
+import React from 'react';
 
 const preview: Preview = {
   globalTypes: {},
@@ -45,8 +47,21 @@ const preview: Preview = {
         { name: "Dark", class: ["dark"], color: "#000" },
       ],
     },
+    docs: {
+      toc: false,
+      page: () => (
+        <>
+          <Title />
+          <Subtitle />
+          <Description />
+          <Primary />
+          <Controls />
+        </>
+      ),
+    },
   },
   decorators: [],
+
 };
 
 export default preview;

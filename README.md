@@ -52,7 +52,11 @@
         <li><a href="#storybook">Storybook</a></li>
       </ul>
     </li>
-    <li><a href="#component-api">Component API</a></li>
+    <li><a href="#component-api">Component API</a>
+      <ul>
+        <li><a href="#interfaces">Interfaces</a></li>
+      </ul>
+    </li>
     <li><a href="#testing-your-changes">Testing w/ Story Book</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -115,7 +119,7 @@ Default Styling Lib - Tailwind
 | `tooltipListWrapperCls` | `string` | optional - applys class name button dropdown list |
 | `tooltipListItemCls` | `string` | optional - applys class name individual items in dropdown |
 
-
+### Interfaces
 
 ```
 import { ICalendarEvent, IButtonVariant, ICalendarOption } from '@infini-ui/react-add-to-calendar';
