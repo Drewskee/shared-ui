@@ -48,7 +48,7 @@
     <li>
       <a href="#example">Example</a>
       <ul>
-        <li><a href="#basic">Basic Usage</a></li>
+        <li><a href="#basic-usage">Basic Usage</a></li>
         <li><a href="#storybook">Storybook</a></li>
       </ul>
     </li>
