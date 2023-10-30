@@ -43,19 +43,17 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#installation">Installation</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#example">Example</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#basic">Basic</a></li>
+        <li><a href="#storybook">Storybook</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#component-api">Component API</a></li>
+    <li><a href="#testing-your-changes">Testing w/ Story Book</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -77,8 +75,7 @@ npm install @infini-ui/react-add-to-calendar --save
 
 <!-- SAMPLE CODE -->
 ## Example
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/story/infiniui-add-to-calendar-button--configurable-calendar-options&args=calendarOptions[0]:Apple;calendarOptions[1]:Google;calendarOptions[2]:Outlook;calendarOptions[3]:Yahoo)
-
+### basic
 ```
 import { AddToCalendarButton, ICalendarEvent, IButtonVariant } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
@@ -97,15 +94,16 @@ const event: ICalendarEvent = {
 <AddToCalendarButton calendarEvent={event} variant={IButtonVariant.filled} />
 
 ```
+### Storybook
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/story/infiniui-add-to-calendar-button--configurable-calendar-options&args=calendarOptions[0]:Apple;calendarOptions[1]:Google;calendarOptions[2]:Outlook;calendarOptions[3]:Yahoo)
 
-`by default the button variant will be IButtonVariant.ghost`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Component API  
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/docs/infiniui-add-to-calendar-button--docs)
 
-Using tailwind by default
+Default Styling Lib - Tailwind
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
