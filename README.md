@@ -11,7 +11,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![HitCount](https://hits.dwyl.com/Drewskee/react-add-to-calendar.svg)](https://hits.dwyl.com/Drewskee/react-add-to-calendar)
+
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
 
@@ -236,3 +236,6 @@ Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) - drew@i
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+
+[![HitCount](https://hits.dwyl.com/Drewskee/react-add-to-calendar.svg)](https://hits.dwyl.com/Drewskee/react-add-to-calendar)
