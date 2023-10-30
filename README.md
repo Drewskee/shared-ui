@@ -110,9 +110,9 @@ Using tailwind by default
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `calendarEvent` | `ICalendarEvent` | **Required** |
-| `variant` | `IButtonVariant` | optional - default ( IButtonVariant.ghost ) |
-| `calendarOptions` | `Array<ICalendarOption/string>` | optional - default shows all opt keys of ICalendarOption |
-| `startIcon` | `JSX.Elemnent` | optional - defaults to plus sign |
+| `variant` | `IButtonVariant` | optional - default ( IButtonVariant.ghost ) - ["outlined", "filled" , "ghost" ] |
+| `calendarOptions` | `Array<ICalendarOption/string>` | optional - default ( shows all opt keys of ICalendarOption ) - ["Apple", "Google", "Yahoo",  "Outlook"] |
+| `startIcon` | `JSX.Elemnent` | optional - default ( plus sign ) |
 | `wrapperCls` | `string` | optional - applys class name values to wrapper of entire widget |
 | `buttonCls` | `string` | optional - applys class name values to initial button |
 | `tooltipListWrapperCls` | `string` | optional - applys class name button dropdown list |
@@ -120,6 +120,8 @@ Using tailwind by default
 
 
 ```
+import { ICalendarEvent, IButtonVariant, ICalendarOption } from '@infini-ui/react-add-to-calendar';
+
 interface ICalendarEvent {
     title: string;
     description: string;
@@ -128,19 +130,6 @@ interface ICalendarEvent {
     durationInMinutes?: number;
     address?: string;
     showBrandIcons?: boolean;
-}
-
-export enum IButtonVariant {
-  outlined = "outlined",
-  filled = "filled",
-  ghost = "ghost",
-}
-
-export enum ICalendarOption {
-  Apple ="Apple",
-  Google = "Google",
-  Yahoo = "Yahoo",
-  Outlook = "Outlook",
 }
 
 ```
