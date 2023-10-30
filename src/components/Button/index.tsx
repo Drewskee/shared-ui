@@ -1,13 +1,8 @@
 import React from "react";
-
-import { twMerge } from 'tailwind-merge';
-import classnames from 'classnames';
-
 import type { IButton } from './types';
 import { IButtonStyleDict } from './types';
 import { styleDictionary } from './const';
 import { cn } from './../../utils/helpers';
-
 
 const Button = ({
   dataTestId,
@@ -28,15 +23,15 @@ const Button = ({
   const palette = styleDictionary.find((dict: IButtonStyleDict) => dict.palette === brandColor && dict.variant === variant)
 
   const isDisabledCls = (disabled: boolean) => {
-    return palette && disabled && disabledCls;
+    return palette && disabled && disabledCls || "";
   }
 
   const isActiveCls = () => {
-    return palette && !disabled && isFocused && palette.active;
+    return palette && !disabled && isFocused && palette.active || "";
   }
 
   const baseCls = () => {
-    return palette && palette.base;
+    return palette && palette.base || "";
   }
 
   const _onFocus = () => {
@@ -46,7 +41,6 @@ const Button = ({
     setFocused(false)
   }
 
-  cn
   return (
     <button
       ref={btnRef}
@@ -56,13 +50,11 @@ const Button = ({
       data-testid={dataTestId}
       disabled={disabled}
       type="button"
-      className={
-        twMerge(classnames(clsBase,
-          baseCls(),
-          isActiveCls(),
-          isDisabledCls(disabled)
-        ), classOverrides)
-      }
+      className={cn(clsBase,
+        baseCls(),
+        isActiveCls(),
+        isDisabledCls(disabled),
+        classOverrides)}
     >
       <span className="mr-2">{startIcon && startIcon}</span> <span>{text}</span> {endIcon && endIcon}
     </button>
