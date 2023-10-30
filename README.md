@@ -111,7 +111,7 @@ Using tailwind by default
 | :--- | :--- | :--- |
 | `calendarEvent` | `ICalendarEvent` | **Required** |
 | `variant` | `IButtonVariant` | optional - default ( IButtonVariant.ghost ) |
-| `calendarOptions` | `Array<ICalendarOption | string>` | optional - default shows all opt keys of ICalendarOption |
+| `calendarOptions` | `Array<ICalendarOption/string>` | optional - default shows all opt keys of ICalendarOption |
 | `startIcon` | `JSX.Elemnent` | optional - defaults to plus sign |
 | `wrapperCls` | `string` | optional - applys class name values to wrapper of entire widget |
 | `buttonCls` | `string` | optional - applys class name values to initial button |
