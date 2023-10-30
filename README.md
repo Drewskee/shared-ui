@@ -191,8 +191,8 @@ Don't forget to give the project a star! Thanks again!
 <br />
 drew@iamdrewstephenson.com 
 
-Drew Stephenson - [@iamDrewStephenson](https://instagram.com/iamdrewstephenson) 
-Drew Stephenson - [@DrewStephenson](https://twitter.com/DrewStephenson) 
+Threads - [@iamDrewStephenson](https://www.threads.net/@iamdrewstephenson) 
+Twitter - [@DrewStephenson](https://twitter.com/DrewStephenson) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
