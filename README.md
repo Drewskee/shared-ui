@@ -119,9 +119,13 @@ Using tailwind by default
 | `tooltipListItemCls` | `string` | optional - applys class name individual items in dropdown |
 
 
+
 ```
 import { ICalendarEvent, IButtonVariant, ICalendarOption } from '@infini-ui/react-add-to-calendar';
+```
 
+```
+/*
 interface ICalendarEvent {
     title: string;
     description: string;
@@ -131,7 +135,7 @@ interface ICalendarEvent {
     address?: string;
     showBrandIcons?: boolean;
 }
-
+*/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
