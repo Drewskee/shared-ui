@@ -13,7 +13,7 @@
 
 
 [![Downloads](http://img.shields.io/npm/dm/@infini-ui/react-add-to-calendar.svg)](https://npmjs.org/package/@infini-ui/react-add-to-calendar)
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/story/infiniui-add-to-calendar-button--configurable-calendar-options&args=calendarOptions[0]:Apple;calendarOptions[1]:Google;calendarOptions[2]:Outlook;calendarOptions[3]:Yahoo)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/docs/infiniui-add-to-calendar-button--docs)
 
 <br />
 
@@ -48,7 +48,7 @@
     <li>
       <a href="#example">Example</a>
       <ul>
-        <li><a href="#basic">Basic</a></li>
+        <li><a href="#basic">Basic Usage</a></li>
         <li><a href="#storybook">Storybook</a></li>
       </ul>
     </li>
@@ -75,7 +75,7 @@ npm install @infini-ui/react-add-to-calendar --save
 
 <!-- SAMPLE CODE -->
 ## Example
-### basic
+### Basic Usage
 ```
 import { AddToCalendarButton, ICalendarEvent, IButtonVariant } from '@infini-ui/react-add-to-calendar';
 import '@infini-ui/react-add-to-calendar/dist/infini-ui.tailwind.css';
@@ -100,8 +100,7 @@ const event: ICalendarEvent = {
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Component API  
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-ntiyvcatpk.chromatic.com/?path=/docs/infiniui-add-to-calendar-button--docs)
+## Component API 
 
 Default Styling Lib - Tailwind
 

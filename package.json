@@ -2,7 +2,7 @@
   "name": "@infini-ui/react-add-to-calendar",
   "description": "Customizable react button component",
   "author": "Drew Stephenson",
-  "version": "0.1.78",
+  "version": "0.1.79",
   "main": "dist/infini-react-add-to-calendar.js",
   "module": "dist/infini-react-add-to-calendar.js",
   "types": "decs.d.ts",
@@ -117,5 +117,5 @@
     "url": "https://github.com/Drewskee/react-add-to-calendar/issues"
   },
   "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/Drewskee/react-add-to-calendar#readme?p=3"
+  "homepage": "https://github.com/Drewskee/react-add-to-calendar#readme?p=4"
 }
