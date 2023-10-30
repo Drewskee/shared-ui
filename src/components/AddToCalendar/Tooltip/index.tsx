@@ -26,14 +26,14 @@ export default function Tooltip({ calendarEvent, showBrandIcons, tooltipItemsCls
         href={generateGoogleCalendarUrl(calendarEvent)}
         target="_blank" rel="noopener noreferrer"
         className={cn(listItemCls, tooltipItemsCls)}
-        data-testid="calendar-provider-link">
+        data-testid="calendar-link">
         {icons && <IoLogoGoogle className="w-4" />}<span className="ml-2 icon__placeholder" /> Google Calendar
       </a>
       <a
         href={generateIcsCalendarFile(calendarEvent)}
         target="_blank" rel="noopener noreferrer"
         className={cn(listItemCls, tooltipItemsCls)}
-        data-testid="calendar-provider-link">
+        data-testid="calendar-link">
         {icons && <IoLogoApple className="w-4" />} <span className="ml-2 icon__placeholder" /> Apple Calendar
       </a>
 
@@ -41,7 +41,7 @@ export default function Tooltip({ calendarEvent, showBrandIcons, tooltipItemsCls
         href={generateYahooCalendarUrl(calendarEvent)}
         target="_blank" rel="noopener noreferrer"
         className={cn(listItemCls, tooltipItemsCls)}
-        data-testid="calendar-provider-link">
+        data-testid="calendar-link">
         {icons && <TbBrandYahoo className="w-4" />} <span className="ml-2 icon__placeholder" /> Yahoo Calendar
       </a>
 
@@ -50,7 +50,7 @@ export default function Tooltip({ calendarEvent, showBrandIcons, tooltipItemsCls
         target="_blank"
         rel="noopener noreferrer"
         className={cn(listItemCls, tooltipItemsCls)}
-        data-testid="calendar-provider-link">
+        data-testid="calendar-link">
         {icons && <PiMicrosoftOutlookLogoBold className="w-4" />} <span className="ml-2 icon__placeholder" /> Outlook Calendar
       </a>
     </div>

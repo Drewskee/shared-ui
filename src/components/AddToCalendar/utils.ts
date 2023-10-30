@@ -1,3 +1,8 @@
+/*
+Cem KIRAY
+https://cemkiray.com/
+https://codesandbox.io/s/react-add-to-calendar-button-8g6dl?file=/src/AddToCalendarButton/Tooltip/AddToCalendarButtonTooltip.tsx
+*/
 import { ICalendarEvent } from "./";
 
 const MINUTE_IN_MS = 60 * 1000;
@@ -24,8 +29,7 @@ export const generateGoogleCalendarUrl = (calendarEvent: ICalendarEvent) =>{
     `&text=${  calendarEvent.title || ''}`,
     `&dates=${  startDate || ''}`,
     `/${  endDate || ''}`,
-    // TODO: append video appointment link to description
-    `&details=${  `${calendarEvent.description}\n`+`https://cemkiray.com` || ''}`,
+    `&details=${  `${calendarEvent.description}\n`+`https://iamdrewstephenson.com` || ''}`,
     `&location=${  calendarEvent.address || ''}`,
     '&sprop=&sprop=name:'].join(''));
 

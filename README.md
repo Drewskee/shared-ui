@@ -110,7 +110,7 @@ Using tailwind by default
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `calendarEvent` | `ICalendarEvent` | **Required** |
-| `variant` | `IButtonVariant` | optional |
+| `variant` | `IButtonVariant` | optional - default ( IButtonVariant.ghost ) |
 | `startIcon` | `JSX.Elemnent` | optional - defaults to plus sign |
 | `wrapperCls` | `string` | optional - applys class name values to wrapper of entire widget |
 | `buttonCls` | `string` | optional - applys class name values to initial button |
@@ -148,9 +148,9 @@ npm run storybook
 
 - [x] Add Base Button Component
 - [x] Default Tailwind Compiler
-- [x] Add Additional Templates w/ Examples [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://653da60659baa1a4a87a42b4-tcfvymajkr.chromatic.com/?path=/docs/atoms-add-to-calendar--docs)
+- [x] Add Additional Templates w/ Examples
 - [ ] Tailwind Override Support with BEM class fallback - in progress
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [x] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
     - [ ] Spanish
     - [ ] + more ([Request your language](https://github.com/othneildrew/Best-README-Template/issues)  )
